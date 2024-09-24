@@ -14,4 +14,23 @@
   --light-accent-color: #FF8DCB;
 
   --page-padding: 10px;
+  --bg-image: url("../images/cover-image-dark.png")
+}
+
+:root .theme-dark {
+  --main-color: #000028;
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --accent-text-color: #DB00FF;
+
+  --bg-image: url("../images/cover-image-dark.png")
+}
+
+:root .theme-light {
+  --main-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --text-color: #353430;
+  --accent-text-color: #DB00FF;
+  --accent-title-color: #FF0070;
+  --bg-image: url("../images/cover-image-light.png")
 }
