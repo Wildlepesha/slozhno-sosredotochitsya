@@ -6,9 +6,9 @@
 
 .page.theme_dark {
   --main-color: #000028;
-  --accent-color: #FF0070;
-  --text-color: #F1B2CE;
-  --accent-text-color: #DB00FF;
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
+  --accent-text-color: #db00ff;
   --low-opacity-accent: #ff006f66;
   --contrast-color: var(--accent-color);
   --bg-image: url("../images/cover-image-dark.png");
@@ -18,12 +18,12 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --main-color: #000028;
-    --accent-color: #FF0070;
-    --text-color: #F1B2CE;
-    --accent-text-color: #DB00FF;
+    --accent-color: #ff0070;
+    --text-color: #f1b2ce;
+    --accent-text-color: #db00ff;
     --low-opacity-accent: #ff006f66;
     --contrast-color: var(--accent-color);
-    --bg-image: url("../images/cover-image-dark.png")
+    --bg-image: url("../images/cover-image-dark.png");
   }
 
   .page {

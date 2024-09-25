@@ -4,10 +4,10 @@
   переключая тему
 */
 .page.theme_light {
-  --main-color: #FFC2E6;
-  --accent-color: #FF8DCB;
+  --main-color: #ffc2e6;
+  --accent-color: #ff8dcb;
   --text-color: #353430;
-  --accent-title-color: #FF0070;
+  --accent-title-color: #ff0070;
   --low-opacity-accent: #35343066;
   --contrast-color: var(--text-color);
   --bg-image: url("../images/cover-image-light.png");
@@ -16,10 +16,10 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-color: #FFC2E6;
-    --accent-color: #FF8DCB;
+    --main-color: #ffc2e6;
+    --accent-color: #ff8dcb;
     --text-color: #353430;
-    --accent-title-color: #FF0070;
+    --accent-title-color: #ff0070;
     --low-opacity-accent: #35343066;
     --contrast-color: var(--text-color);
     --bg-image: url("../images/cover-image-light.png");
@@ -33,7 +33,7 @@
     display: none;
   }
 
-  .header_text, 
+  .header_text,
   .info-block__title,
   .wrapper__header,
   .info-block__title_accent,
@@ -47,7 +47,7 @@
   }
 }
 
-.theme_light .header_text, 
+.theme_light .header_text,
 .theme_light .info-block__title,
 .theme_light .wrapper__header,
 .theme_light .info-block__title_accent,
