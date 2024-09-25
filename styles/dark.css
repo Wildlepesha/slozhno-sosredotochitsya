@@ -24,4 +24,12 @@
     --contrast-color: var(--accent-color);
     --bg-image: url("../images/cover-image-dark.png")
   }
+
+  .page {
+    background-color: var(--main-color);
+  }
+}
+
+.page {
+  background-color: var(--main-color);
 }
