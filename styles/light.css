@@ -11,7 +11,7 @@
   --low-opacity-accent: #35343066;
   --contrast-color: var(--text-color);
   --bg-image: url("../images/cover-image-light.png");
-  background-color: none;
+  background-color: #FFF;
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,7 +26,7 @@
   }
 
   .page {
-    background-color: none;
+    background-color: #FFF;
   }
 
   .decorative_text {
