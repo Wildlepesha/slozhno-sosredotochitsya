@@ -11,6 +11,7 @@
   --low-opacity-accent: #35343066;
   --contrast-color: var(--text-color);
   --bg-image: url("../images/cover-image-light.png");
+  background-color: var(--main-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -44,10 +45,6 @@
     color: var(--accent-color);
     text-shadow: 4px 4px 0px var(--accent-title-color);
   }
-}
-
-.page {
-  background-color: var(--main-color);
 }
 
 .theme_light .header_text, 

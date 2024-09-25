@@ -11,7 +11,8 @@
   --accent-text-color: #DB00FF;
   --low-opacity-accent: #ff006f66;
   --contrast-color: var(--accent-color);
-  --bg-image: url("../images/cover-image-dark.png")
+  --bg-image: url("../images/cover-image-dark.png");
+  background-color: var(--main-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,8 +29,4 @@
   .page {
     background-color: var(--main-color);
   }
-}
-
-.page {
-  background-color: var(--main-color);
 }
