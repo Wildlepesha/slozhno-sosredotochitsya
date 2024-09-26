@@ -5,7 +5,6 @@
   color: var(--text-color);
   font-family: "IBM Plex mono", Arial, Helvetica, sans-serif;
   background: var(--bg-image);
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--main-color);
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,27 +149,32 @@
   padding: 0 var(--page-padding);
 }
 
-.info-block,
 .article_lg {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.info-block__title {
+.article-block__title {
   color: var(--accent-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.463rem;
 }
 
-.info-block__wrapper {
+.article__list, .article-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.article__wrapper {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.wrapper__header,
+.article__header,
 .info-block__title-accent {
   color: var(--main-color);
   font-size: 18px;
@@ -178,7 +182,7 @@
   background: var(--accent-color);
 }
 
-.wrapper__text {
+.article__text {
   font-size: 18px;
   line-height: 1.463rem;
 }
@@ -289,18 +293,21 @@
     grid-column: 2/4;
   }
 
-  .content__article_xl {
+  .article_xl.article-block {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .article_xl.info-block__title {
+  .article_xl.article-block__title {
     grid-column: 1/2;
     grid-row: 1/2;
   }
 
-  .article_xl.info-block__wrapper {
+  .article_xl__list {
     grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .info-block.gallery {
@@ -382,18 +389,15 @@
     width: 100%;
   }
 
-  .content__article_xl {
+  .article_xl__list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1/-1;
+    gap: 20px;grid-template-columns: repeat(3, 1fr);
   }
 
-  .article_xl.info-block__title {
+  .article_xl.article-block__title {
     grid-column: 1/2;
-  }
-
-  .article_xl.info-block__wrapper {
-    grid-column: initial;
-    grid-row: 2/3;
+    grid-row: 1/2;
   }
 
   .footer {
