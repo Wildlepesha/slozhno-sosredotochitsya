@@ -29,37 +29,37 @@
     background-color: #FFF;
   }
 
-  .decorative_text {
+  .decorative-text {
     display: none;
   }
 
-  .header_text,
+  .header_-text,
   .info-block__title,
   .wrapper__header,
-  .info-block__title_accent,
+  .info-block__title-accent,
   .header__theme-menu {
     color: var(--text-color);
   }
 
-  .logo-title {
+  .logo {
     color: var(--accent-color);
     text-shadow: 4px 4px 0px var(--accent-title-color);
   }
 }
 
-.theme_light .header_text,
+.theme_light .header__text,
 .theme_light .info-block__title,
 .theme_light .wrapper__header,
-.theme_light .info-block__title_accent,
+.theme_light .info-block__title-accent,
 .theme_light .header__theme-menu {
   color: var(--text-color);
 }
 
-.theme_light .logo-title {
+.theme_light .logo {
   color: var(--accent-color);
   text-shadow: 4px 4px 0px var(--accent-title-color);
 }
 
-.theme_light .decorative_text {
+.theme_light .decorative-text {
   display: none;
 }
