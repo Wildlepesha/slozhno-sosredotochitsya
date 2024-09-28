@@ -3,7 +3,7 @@
 .page {
   position: relative;
   color: var(--text-color);
-  font-family: "IBM Plex mono", Arial, Helvetica, sans-serif;
+  font-family: "IBM Plex mono", monospace, Arial, Helvetica, sans-serif;
   background: var(--bg-image);
   background-color: var(--main-color);
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@
   background: var(--accent-color);
 }
 
-.regular {
+.article__header.regular {
   font-weight: 400;
 }
 
@@ -191,7 +191,6 @@
 .article__link {
   position: relative;
   display: inline-block;
-  box-shadow: 0 0 0 0 white;
   font-size: 18px;
   line-height: 23px;
   text-decoration: none;
@@ -250,7 +249,6 @@
 
   .header {
     grid-template-columns: repeat(4, 1fr);
-    justify-content: space-between;
     margin-block-end: 60px;
     padding: var(--page-padding) var(--page-padding) var(--page-padding) 0;
     min-block-size: 1024px;
@@ -292,18 +290,12 @@
   }
 
   .article-block:has(.article__list-title) .article__list-title {
-    grid-column: 2/3;
+    grid-column: 2/-1;
     height: min-content;
   }
 
   .article__list {
     grid-column: 2/-1;
-    justify-self: end;
-  }
-
-  .article_xl.article-block__title {
-    grid-column: 1/2;
-    grid-row: 1/2;
   }
 
   .article_xl.article__list {
@@ -340,7 +332,7 @@
   }
 
   .footer {
-    min-height: 1024px;
+    min-block-size: 1024px;
   }
 }
 
@@ -375,18 +367,9 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .article-block:has(.article__list-title) .article__list-title {
-    grid-column: 2/4;
-  }
-
   .article_xl.article__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .article-block__title {
-    grid-column: 1/2;
-    grid-row: 1/2;
   }
 
   .footer {
