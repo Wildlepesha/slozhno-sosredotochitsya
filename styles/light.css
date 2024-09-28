@@ -33,10 +33,11 @@
     display: none;
   }
 
-  .header_-text,
-  .info-block__title,
-  .wrapper__header,
-  .info-block__title-accent,
+  .header__text,
+  .article-block__title,
+  .article__header,
+  .theme_light .article__list-title,
+  .theme_light .gallery__title,
   .header__theme-menu {
     color: var(--text-color);
   }
@@ -48,9 +49,10 @@
 }
 
 .theme_light .header__text,
-.theme_light .info-block__title,
-.theme_light .wrapper__header,
-.theme_light .info-block__title-accent,
+.theme_light .section__title,
+.theme_light .article__header,
+.theme_light .article__list-title,
+.theme_light .gallery__title,
 .theme_light .header__theme-menu {
   color: var(--text-color);
 }
