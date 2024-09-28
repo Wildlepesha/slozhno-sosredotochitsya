@@ -250,7 +250,7 @@
   .header {
     grid-template-columns: repeat(4, 1fr);
     margin-block-end: 60px;
-    padding: var(--page-padding) var(--page-padding) var(--page-padding) 0;
+    padding-inline-start: 0;
     min-block-size: 1024px;
   }
 
