@@ -33,7 +33,6 @@
   text-shadow: 4px 4px 0px var(--accent-title-color);
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     --main-color: #ffc2e6;
@@ -58,7 +57,7 @@
   }
 
   .page {
-    background-color: #FFF;
+    background-color: #fff;
   }
 
   .decorative-text {
@@ -80,7 +79,7 @@
     text-shadow: 4px 4px 0px var(--accent-title-color);
   }
 
-  .theme_dark .logo{
+  .theme_dark .logo {
     color: var(--accent-text-color);
   }
 
@@ -88,7 +87,7 @@
     display: flex;
   }
 
-  .theme_dark .section__title, 
+  .theme_dark .section__title,
   .theme_dark .header__theme-menu {
     color: var(--accent-color);
   }
