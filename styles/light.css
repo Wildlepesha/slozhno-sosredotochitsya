@@ -39,6 +39,7 @@
     --accent-color: #ff8dcb;
     --text-color: #353430;
     --accent-title-color: #ff8dcb;
+    --accent-title-color-secondary: #ff0070;
     --low-opacity-accent: #35343066;
     --contrast-color: var(--text-color);
     --bg-image: url("../images/cover-image-light.png");
@@ -81,6 +82,7 @@
 
   .theme_dark .logo {
     color: var(--accent-text-color);
+    text-shadow: 4px 4px 0px var(--accent-title-color-secondary);
   }
 
   .theme_dark .decorative-text {
