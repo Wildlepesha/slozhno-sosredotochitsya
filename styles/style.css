@@ -4,8 +4,8 @@
   position: relative;
   color: var(--text-color);
   font-family: "IBM Plex mono", monospace, Arial, Helvetica, sans-serif;
-  background: var(--bg-image);
-  background-color: var(--main-color);
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
